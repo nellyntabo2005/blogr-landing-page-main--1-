@@ -5,19 +5,46 @@ body{
 .container{
     background-color: hsl(353, 100%, 62%);
     background-image: url(./images/bg-pattern-intro-mobile.svg);
-    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
     border-bottom-left-radius: 50px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
-.container .head{
-    display:flex;
+.head{
+    display: flex;
+    gap:70px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    padding: 40px;
+    padding-left:40px;
+    text-decoration: none;
+}
+.button-3{
+    margin-left: 40%;
 
 }
-.container >a{
-    display: flex;
-    text-decoration: none;
-    font-size: 700;
+#four{
+    border-radius: 30px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    background-color: inherit;
+    color: aliceblue;
 }
+#five{
+        border-radius: 40px;
+        width: 100px;
+        height: 60px;
+        border: none;
+        color:tomato;
+}
+
 .class-two{
     display: block;
 }
@@ -26,29 +53,45 @@ body{
     font-family:Arial, Helvetica, sans-serif ;
     text-align: center;
     color: antiquewhite;
-    padding-bottom:200px;
+    padding-bottom: 20px;
+   
 
 }
 .button{
     margin-left:40%;
-    margin-bottom:200px ;
+    padding-bottom:150px;
 }
-.button.click{
-    background-color: white;
-    width:50%;
-    justify-content: space-between;
-    margin-left: 50%;
+.head h1{
+    color: white;
+}
+select{
+    background-color:hsl(353, 100%, 62%);
+    border: none;
+    margin-left: 50px;
+    color: aliceblue;
+}
 
-  
-}
 #her{
     width: 150px;
     align-items: center;
     height: 50px;
-    border-radius: 20px 30px;
-   
-   
+    border-radius: 40px;
+    border: none;
+    font-size: large;
+    background-color:white;
+    color:tomato;
 
+}
+#him{
+    width: 150px;
+    align-items: center;
+    height: 50px;
+    border-radius:40px;
+    border-color:white;
+    background-color: inherit;
+    font-size: large;
+    color: white;
+     
 }
 .content h1{
     font-size:40px;
@@ -64,6 +107,10 @@ body{
    
 
 }
+.content-z{
+    display: flex;
+    margin-bottom: 200px;
+}
 .content-3{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -71,11 +118,11 @@ body{
 }
 
 .content-4 img{
-    display: flex;
-    flex-direction:row;
-    padding: 30px;
-    width:30%;
-    margin-left: 50%;
+   overflow: hidden;
+    width:60%;
+    position: relative;
+    bottom: 45%;
+    left: 70%;
 
 }
 .ContentA{
